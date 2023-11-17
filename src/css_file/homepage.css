@@ -1,0 +1,611 @@
+
+
+:root{
+
+  --main-font-color:black;
+  --alternate-font-color:white;
+  --website-primary-color:#3a3a3a;
+  --website-secondary-color:mediumaquamarine;
+  --primary-font-style:"Clarkson",Helvetica,sans-serif;
+
+}
+
+*{
+  font-family: var(--primary-font-style);
+}
+.main-content {
+    position: relative; /* Add relative positioning to enable overlay positioning */
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.5)), url('../../public/Aerial-app-at-Sunris.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
+  
+.main-content-header{
+    margin: 0;
+    font-size: 4vw;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: rgb(230, 230, 230);
+  
+    font-family: "Clarkson",Helvetica,sans-serif;
+   
+}
+
+
+.main-button-container{
+  margin: 1%;
+    
+
+}
+
+.main-content-button{
+   
+  display: inline-block;
+  padding: 0.5em 1em; /* Adjust padding as needed */
+  margin: 0.25em;
+  font-size: 1.4vw; /* Adjust font size relative to viewport width */
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+    
+
+   
+}
+.main-content-button:hover{
+   
+  color: var(--website-secondary-color);
+  background-color: var(--website-primary-color);
+}
+
+
+.mission-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--website-primary-color);
+  color: var(--alternate-font-color)
+}
+
+.mission-title-container {
+  width: 75%;
+  padding: 2vw 0;
+}
+
+.mission-title {
+  font-family: var(--primary-font-style);
+  text-align: center;
+  font-size: 2.6em;
+  
+}
+
+.mission-context-container {
+  width: 60%;
+  padding: 3em;
+}
+
+.mission-context-container p {
+  text-align: center;
+  font-size: 1.5em;
+  
+  
+}
+.mission-image-container{
+  padding: 2em;
+}
+
+.mission-image-container img{
+ 
+  width: 50vw;
+ 
+  border-radius: 10px;
+  filter: brightness(80%) contrast(120%);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+
+/* about us section */
+
+.aboutus-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+
+
+.aboutus-title-container{
+  width: 75%;
+  padding: 2vw 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+
+
+}
+
+.who-are-we{
+  font-family: var(--primary-font-style);
+  text-align: center;
+  font-size: calc(20px + 2.4vw);
+  color: var(--website-primary-color)
+}
+
+.aboutus-content-container{
+  display:flex;
+ 
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Adjust alignment as needed */
+}
+
+.aboutus-images-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  
+  
+  align-items: center;
+  
+}
+
+
+.holmesenviro-desc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:1vw;
+
+}
+
+.aboutus-content-item{
+  width:50%;
+ 
+}
+
+
+.holmesenviro-desc img{
+  width: 50%;
+  
+ 
+  border-radius: 20px;
+  filter: brightness(80%) contrast(120%);  
+}
+
+.aboutus-description{
+  background-color: var(--website-primary-color);
+  color: white;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.description-container{
+  
+  width: 70%;
+}
+
+.description-container p{
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.microbialLabs-container{
+  background-color: var(--website-primary-color);
+  height: 100%;
+  color: white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.microbial-description{
+  width: 70%;
+
+}
+.microbial-description p{
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.Biotech-research-container{
+  
+  display: flex;  
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.Biotech-research-container img{
+  width: 60%;
+  
+
+}
+
+.content-item-headers{
+  font-size: calc(15px + 1.4vw);
+  
+}
+
+/* innovations sections*/
+
+.innovations-containers{
+  width: 100%;
+  background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.5)), url('../../public/Foliar-Stealth-and-R.png');
+  background-size: cover; /* Set the background size to cover */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the background image */
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color:var(--alternate-font-color)
+}
+
+.innovations-containers h1{
+  font-size: 2vw;
+}
+
+
+
+/* advantages sections*/
+
+.advantages-section{
+
+  color: var(--website-primary-color);
+  
+  background-color: var(--website-secondary-color);
+}
+
+.advantages-header{
+  display:flex;
+  
+  width: 100%;
+  justify-content: center;
+ 
+  
+
+}
+
+.advantages-header h1{
+  font-size: calc(10px + 1.3vw);;
+  border-bottom: var(--website-primary-color) solid 5px;
+  text-align: center;
+
+
+}
+
+.advantages-gallery-container{
+  display:flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+ 
+
+}
+.advantage-image-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.3%;
+ 
+  padding: 1.5em 0;
+  
+}
+
+.ad-image-container{
+  width: 70%;
+ 
+ 
+}
+
+.ad-image-container img{
+  border-radius: 10px;
+  filter: brightness(80%) contrast(120%);
+  
+  object-fit:cover; 
+  
+  width: 100%;
+
+}
+
+.ad-image-label{
+  width: 60%;
+  border-bottom:#3a3a3a solid 2px;
+}
+.ad-image-label h2{
+  font-size: calc(15px + .6vw);
+  text-align: center;
+}
+
+
+.project-container{
+  width: 100%;
+  
+  display:flex;
+  flex-direction:column;
+}
+
+.project-title-container{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  
+  
+  background-color: var(--website-primary-color);
+  color: white;
+}
+
+.project-title-container{
+  font-size: calc(20px + 1.7vw);
+}
+
+.project-content-container{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.project1-container{
+  background:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),url('../../public/project_images/glen-carrie-iB1JuJyQob4-unsplash.jpg');
+  width: 100%;
+  height: 50vh;
+  background-size: cover; /* Set the background size to cover */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the background image */
+  display: flex;
+  flex-wrap:wrap;
+  padding: 5em 0;
+  justify-content: center;
+
+}
+
+
+.project2-container{
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url('../../public/project_images/potato-farm.jpg');
+  width: 100%;
+  height: 50vh;
+  background-size: cover; /* Set the background size to cover */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the background image */
+  display: flex;
+  flex-wrap:wrap;
+  padding: 5em 0;
+  justify-content: center;
+  
+
+}
+
+.project3-container{
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url('../../public/project_images/Tuber-vegetables-Potato.jpg');
+  width: 100%;
+  height: 50vh;
+  background-size: cover; /* Set the background size to cover */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the background image */
+  display: flex;
+  
+  padding: 5em 0;
+  justify-content: center;
+
+}
+
+.project-image-container{
+  width: 45%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
+  
+
+}
+.project-image-container img{
+  
+  width: 70%;
+  filter: brightness(80%) contrast(120%);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.824);
+  border-radius: 10px;
+}
+
+.project-text-container{
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.project-text-container h1{
+
+  font-size: 3em;
+  text-align: center;
+
+  
+  
+}
+
+
+
+/* products section*/
+.products-contain{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction:column;
+  
+}
+
+.products-header-container{
+
+  width: 100%;
+  text-align: center;
+  font-family: var(--primary-font-style);
+  text-align: center;
+  font-size: calc(20px + 1vw);
+  color: var(--website-primary-color);
+
+}
+
+.labels-section{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--website-primary-color);}
+
+.labels-scroll-bar{
+  width: 100%; /* Set the width of the scrollable panel */
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  background-color: whitesmoke;
+  white-space: nowrap; /* Prevent line breaks between child elements */
+
+
+  
+}
+
+
+.labels-containers{
+  display:inline-block;
+  background-color: var(--website-secondary-color);
+  padding: .5vw 2vw;
+  
+  
+
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  
+  margin: 2vw;
+  
+}
+
+.labels-content{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: calc(10px + 1.5vw);
+  width: 100%;
+
+}
+
+.labels-title-container{
+  font-family: var(--primary-font-style);
+  text-align: center;
+  font-size: calc(10px + 1.5vw);
+  color: var(--website-secondary-color);
+}
+
+.labels-containers:hover{
+  background-color: var(--website-primary-color);
+  color:#3a3a3a;
+
+
+}
+
+
+
+
+@media (max-width: 1000px) {
+  .aboutus-content-item {
+    width: 100%
+  }
+  .holmesenviro-desc img{
+    width: 40%;
+    
+  }
+
+  .description-container p {
+    font-size: 2vw;
+  }
+  .microbial-description p{
+    
+    font-size: 2vw;
+  }
+  .advantage-image-section{
+    
+    width: 50%;
+  }
+  .project1-container{
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .project2-container{
+    display: flex;
+    
+    justify-content: center;
+    align-self: center;
+    
+  }
+  .project3-container{
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .project-image-container{
+    width: 100%;
+  
+  }
+
+  .project-text-container{
+    width: 100%;
+   
+    
+    
+  }
+  .project-text-container h1{
+
+    font-size: 1.5em;
+   
+
+  }
+  
+  
+}
+
+
+
+
+
+@media (max-width: 700px) {
+  .mission-title {
+    font-size: 1.5em;
+  }
+
+  .mission-context-container p {
+    font-size: .7em; /* Adjust the font size for smaller screens */
+    padding: 0 1em; /* Add padding to make the text more readable on small screens */
+  }
+  .advantage-image-section{
+    
+    width: 100%;
+  }
+  /* .labels-containers{
+   
+    padding:  0;
+
+    
+  } */
+  
+}

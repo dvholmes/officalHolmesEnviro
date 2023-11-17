@@ -1,0 +1,151 @@
+
+
+:root{
+
+  --main-font-color:black;
+  --alternate-font-color:white;
+  --website-primary-color:#3a3a3a;
+  --website-secondary-color:mediumspringgreen;
+  --primary-font-style:"Clarkson",Helvetica,sans-serif;
+
+}
+
+/*Gallary page css*/
+
+.image_section{
+  display: flex;  
+  flex-direction: row;
+ margin-top: 1%;
+ margin-bottom: 1%;
+ margin-left: 5%;
+ margin-right: 5%;
+ box-shadow: 7px 7px 7px 7px  #0000007a;
+ background-image: linear-gradient(to right, #e6e6e6, #303030);
+ background-color: rgb(213, 213, 213);
+  flex-wrap: wrap;
+  
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  border-radius: 10px;
+  
+  
+  
+  
+}
+
+.image-card img{
+  height: 23vh;
+  width: 28vh;
+  object-fit:cover; 
+  border-radius: 10px;
+  box-shadow: 7px 7px  #0000007a;
+  transition: all 1.5s ease;
+}
+
+.inner-image-card{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: .5vw;
+  margin-right: .5vw;
+
+}
+
+.inner-image-card:hover
+ {
+  transform: scale(1.035);
+ }
+
+ .image-header-container{
+
+  position: relative; /* Add relative positioning to enable overlay positioning */
+  background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.5)), url('../public/pexels-taryn-elliott-4340919.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+
+  
+
+ }
+
+
+
+ .imageHeader{
+  font-family: var(--primary-font-style);
+  color: white;
+
+  font-size: 4vw;
+
+ }
+
+ .pagination-buttons{
+  display: flex;
+  justify-content: center;
+ 
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+ }
+
+
+ .pagination-button{
+  padding: 1.5%;;
+  margin-left: .5%;
+  margin-right: .5%;
+  border-radius: 50%;
+  box-shadow: 1px 1px black;
+
+ }
+ 
+ .pagination-button:hover{
+  transform: scale(1.2);
+  
+ }
+
+ .pagination-button.active{
+  background-color: var(--website-primary-color);
+  color: white;
+ }
+
+ .pop-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.pop-up-content {
+  max-width: 70%;
+  
+ 
+  display: flex;
+  justify-content: center;
+
+}
+
+.pop-up-content img {
+  max-width: 100%;
+  max-height: 100%;
+ 
+}
+
+.pop-up-content button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}

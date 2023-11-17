@@ -1,0 +1,165 @@
+
+
+
+
+:root{
+
+  --main-font-color:black;
+  --alternate-font-color:white;
+  --website-primary-color:#3a3a3a;
+  --website-secondary-color:mediumspringgreen;
+  --primary-font-style:"Clarkson",Helvetica,sans-serif;
+
+}
+.products-main-image{
+  position: relative;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.5)), url('../../public/meyer_agri-air_spray_plane.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+
+
+}
+.products-carosuel-container{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:  3vw 2vw;
+  background-color: whitesmoke;
+  flex-direction: column;
+
+}
+.products-main-title{
+
+  font-size: calc(20px + 2.5vw);
+  color: var(--alternate-font-color)
+
+
+}
+.product-item-frame{
+  width: 100%;
+  display:flex;
+  flex-wrap:wrap;
+
+  justify-content: center;
+  align-items: center;
+  padding: 2vw 0;
+  color: white;
+
+}
+
+.product-item-container-HyperGalaxy{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url('../../public/product_images/Roots-Resilence-jpg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.product-item-container-Enhand{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url('../../public/pexels-suzy-hazelwood-2382325.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.product-item-container-RedTail{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),  url('../../public/product_images/knowledge-JPG.png');
+  background-size: cover;
+  background-position: center;
+}
+.product-item-container-Stealth{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url('../../public/meyer_agri-air_spray_plane.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.product-item-title{
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  /* color: var(--alternate-font-color); */
+  
+}
+
+.product-item-title h1{
+  font-size: calc(15px + 2vw);
+
+}
+.product-item-logo{
+  width: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-item-logo img{
+  width: 60%;
+  
+}
+.product-item-list-container{
+  width: 50%;
+ 
+}
+
+.product-text-container span::before {
+  content: "*"; /* Use a custom bullet point, such as a circle */
+  font-size: 25px; /* Adjust the size of the bullet point */
+  margin-right: 8px
+}
+
+.product-text-container{
+ 
+  display: flex;
+  flex-direction: column;
+ 
+ 
+  
+
+ 
+  
+}
+
+
+.product_text{
+  padding: 1.5vw 0;
+  font-size: calc(5px + .8vw);
+ 
+  
+}
+
+@media (max-width: 1000px) {
+  .product-item-list-container{
+    width: 100%;
+    padding: 1vw 0;
+   
+  }
+
+  .product-item-logo{
+    width: 100%;
+    padding: 1vw 0;
+  
+  }
+  .product-text-container span::before {
+    content: "*"; /* Use a custom bullet point, such as a circle */
+    font-size: 10px; /* Adjust the size of the bullet point */
+    margin-right: 5px
+  }
+
+  
+  .product-text-container{
+    align-items: center;  
+    list-style-type:none;
+  }
+  .product_text{
+
+    text-align: center;
+
+    
+  }
+
+  
+}
