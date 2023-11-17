@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/officalHolmesEnviro/static/css/main.6e3d674e.css",
-    "main.js": "/officalHolmesEnviro/static/js/main.0bd06b61.js",
+    "main.js": "/officalHolmesEnviro/static/js/main.5bfc387f.js",
     "static/js/787.c4e7f8f9.chunk.js": "/officalHolmesEnviro/static/js/787.c4e7f8f9.chunk.js",
     "static/media/knowledge-JPG.png": "/officalHolmesEnviro/static/media/knowledge-JPG.6db1544da5723e8d7054.png",
     "static/media/Roots-Resilence-jpg.png": "/officalHolmesEnviro/static/media/Roots-Resilence-jpg.ebae31ca222d7bb18a2e.png",
@@ -15,11 +15,11 @@
     "static/media/Tuber-vegetables-Potato.jpg": "/officalHolmesEnviro/static/media/Tuber-vegetables-Potato.1e31d3b8c49bd2c7fdab.jpg",
     "index.html": "/officalHolmesEnviro/index.html",
     "main.6e3d674e.css.map": "/officalHolmesEnviro/static/css/main.6e3d674e.css.map",
-    "main.0bd06b61.js.map": "/officalHolmesEnviro/static/js/main.0bd06b61.js.map",
+    "main.5bfc387f.js.map": "/officalHolmesEnviro/static/js/main.5bfc387f.js.map",
     "787.c4e7f8f9.chunk.js.map": "/officalHolmesEnviro/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e3d674e.css",
-    "static/js/main.0bd06b61.js"
+    "static/js/main.5bfc387f.js"
   ]
 }
