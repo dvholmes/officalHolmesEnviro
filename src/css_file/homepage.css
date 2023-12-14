@@ -15,7 +15,7 @@
 }
 .main-content {
     position: relative; /* Add relative positioning to enable overlay positioning */
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.5)), url('../../public/Aerial-app-at-Sunris.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.5)), url('../../public/KAAR3494.JPG');
     background-size: cover;
     background-position: center;
     display: flex;

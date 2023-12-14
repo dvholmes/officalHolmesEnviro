@@ -21,7 +21,7 @@ const Header = () => {
 
 
             <div className = "left_logo_container">
-                <img src = "logo-png.png" alt="Logo"/>
+                <img src = {process.env.PUBLIC_URL + "/logo-png.png"} alt="Logo"/>
             </div>
 
             <div className = "left_title_container">
@@ -55,7 +55,7 @@ const Header = () => {
 
             <div className = "right-side-image">
 
-                <img src="OMRI-listed-cmyk_small.png" alt="OMRI_License"/>
+                <img src={process.env.PUBLIC_URL + "/OMRI-listed-cmyk_small.png" }alt="OMRI_License"/>
 
             </div>
         </header>

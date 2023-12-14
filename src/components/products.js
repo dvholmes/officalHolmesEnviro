@@ -8,7 +8,7 @@ import {HyperGalaxy,RedTail,Enhand,Stealth} from './products_content'
 const ProductsTemplate = ({ prod_object }) => {
     // Access properties of the prod_object
     const header = prod_object.Header;
-    const image_path = prod_object.image_path;
+    const image_path = process.env.PUBLIC_URL + '/'+ prod_object.image_path;
     const text_list = prod_object.text_list;
     const main_container_class = 'product-item-container-' + header
     

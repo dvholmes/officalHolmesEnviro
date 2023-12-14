@@ -65,7 +65,7 @@ function HomePage(){
                 </div>
 
                 <div className = 'mission-image-container'>
-                    <img src = "Eco-Friendly-Pest-Control-What-You-Need-to-Know.jpg" alt ='Pest Control'/>
+                    <img src ={process.env.PUBLIC_URL +  "/Eco-Friendly-Pest-Control-What-You-Need-to-Know.jpg"} alt ='Pest Control'/>
                 </div>
 
             </section>
@@ -100,7 +100,7 @@ function HomePage(){
                     <div className = 'aboutus-content-item'>
 
                         <div className = 'Biotech-research-container'>
-                            <img src = 'biotech.png' alt = 'biotech-reasearch'/>
+                            <img src ={process.env.PUBLIC_URL +  '/biotech.png'} alt = 'biotech-reasearch'/>
 
                         </div>
 
@@ -114,7 +114,7 @@ function HomePage(){
                                 <h2>Michael Holmes</h2>
                                 <h3>Chief Operations & Production</h3>
                                 <h4>Jan 1995 - Present · 28 yrs</h4>
-                                <img src = 'desprof.png' alt = 'Michael Holmes'/>
+                                <img src = {process.env.PUBLIC_URL + '/desprof.png' }alt = 'Michael Holmes'/>
 
                             </div>
                             
@@ -169,7 +169,7 @@ function HomePage(){
 
                         <div className = 'advantage-image-section' >
                             <div className = 'ad-image-container'>
-                                <img src ='./advantage-images/Hyper-Galaxy-for-suc.png' alt = 'hypergalaxy'/>
+                                <img src = {process.env.PUBLIC_URL + '/advantage-images/Hyper-Galaxy-for-suc.png'} alt = 'hypergalaxy'/>
 
                             </div>
 
@@ -180,7 +180,7 @@ function HomePage(){
                         </div>
                         <div className = 'advantage-image-section' >
                             <div className = 'ad-image-container'>
-                                <img src ='./advantage-images/Slide11-JPG.png' alt = 'hypergalaxy'/>
+                                <img src = {process.env.PUBLIC_URL + '/advantage-images/Slide11-JPG.png'} alt = 'hypergalaxy'/>
 
                             </div>
 
@@ -191,7 +191,7 @@ function HomePage(){
                         </div>
                         <div className = 'advantage-image-section' >
                             <div className = 'ad-image-container'>
-                                <img src ='./advantage-images/web4-jpg.png' alt = 'hypergalaxy'/>
+                                <img src ={process.env.PUBLIC_URL + '/advantage-images/web4-jpg.png'} alt = 'hypergalaxy'/>
 
                             </div>
 
@@ -202,7 +202,7 @@ function HomePage(){
                         </div>
                         <div className = 'advantage-image-section' >
                             <div className = 'ad-image-container'>
-                                <img src ='./advantage-images/web6-jpg.png' alt = 'hypergalaxy'/>
+                                <img src = {process.env.PUBLIC_URL + '/advantage-images/web6-jpg.png'} alt = 'hypergalaxy'/>
 
                             </div>
 
@@ -213,7 +213,7 @@ function HomePage(){
                         </div>
                         <div className = 'advantage-image-section' >
                             <div className = 'ad-image-container'>
-                                <img src ='./advantage-images/web7-jpg.png' alt = 'hypergalaxy'/>
+                                <img src = {process.env.PUBLIC_URL + '/advantage-images/web7-jpg.png'} alt = 'hypergalaxy'/>
 
                             </div>
 
@@ -224,7 +224,7 @@ function HomePage(){
                         </div>
                         <div className = 'advantage-image-section' >
                             <div className = 'ad-image-container'>
-                                <img src ='./advantage-images/web8-jpg.png' alt = 'hypergalaxy'/>
+                                <img src ={process.env.PUBLIC_URL + '/advantage-images/web8-jpg.png'} alt = 'hypergalaxy'/>
 
                             </div>
 
@@ -250,7 +250,7 @@ function HomePage(){
 
                     <div className = 'project1-container'>
                         <div className = 'project-image-container'>
-                            <img src = './project_images/Slide6-JPG.png' alt = 'mircobial growth'/>
+                            <img src = {process.env.PUBLIC_URL + '/project_images/Slide6-JPG.png'} alt = 'mircobial growth'/>
                            
 
                         </div>
@@ -269,7 +269,7 @@ function HomePage(){
                         </div>
 
                         <div className = 'project-image-container'>
-                            <img src = './project_images/Slide18-JPG.png' alt = 'Potato Statistics'/>
+                            <img src = {process.env.PUBLIC_URL + '/project_images/Slide18-JPG.png'} alt = 'Potato Statistics'/>
 
                         </div>
 
@@ -279,7 +279,7 @@ function HomePage(){
 
                     <div className = 'project3-container'>
                         <div className = 'project-image-container'>
-                            <img src = './project_images/Slide28-JPG.png' alt = 'Tubers in Potatoes'/>
+                            <img src = {process.env.PUBLIC_URL + '/project_images/Slide28-JPG.png'} alt = 'Tubers in Potatoes'/>
 
                         </div>
 

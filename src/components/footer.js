@@ -5,6 +5,14 @@ import { Instagram, Twitter } from 'react-feather';
 
 const Footer = () => {
 
+    const handleInstagramClick = () => {
+        window.location.href = 'https://www.instagram.com';
+      };
+    
+      const handleTwitterClick = () => {
+        window.location.href = 'https://www.twitter.com';
+      };
+
     return (
         <div>
 
@@ -47,8 +55,8 @@ const Footer = () => {
                         <h1 className = 'social-title'>Follow Us</h1>
 
                         <div className = 'logo-containers'>
-                            <Instagram  className  = 'social-icon'/>
-                            <Twitter className = 'social-icon'/>
+                            <Instagram  onClick={handleInstagramClick} className  = 'social-icon'/>
+                            <Twitter   onClick={handleTwitterClick}className = 'social-icon'/>
 
                         </div>
                        
