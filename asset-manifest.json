@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/officalHolmesEnviro/static/css/main.6e3d674e.css",
-    "main.js": "/officalHolmesEnviro/static/js/main.fe109a93.js",
+    "main.css": "/officalHolmesEnviro/static/css/main.d5d251e2.css",
+    "main.js": "/officalHolmesEnviro/static/js/main.ce78194a.js",
     "static/js/787.c4e7f8f9.chunk.js": "/officalHolmesEnviro/static/js/787.c4e7f8f9.chunk.js",
     "static/media/knowledge-JPG.png": "/officalHolmesEnviro/static/media/knowledge-JPG.6db1544da5723e8d7054.png",
     "static/media/Roots-Resilence-jpg.png": "/officalHolmesEnviro/static/media/Roots-Resilence-jpg.ebae31ca222d7bb18a2e.png",
@@ -10,16 +10,16 @@
     "static/media/pexels-taryn-elliott-4340919.jpg": "/officalHolmesEnviro/static/media/pexels-taryn-elliott-4340919.78386baa63d31b2d0fa5.jpg",
     "static/media/pexels-suzy-hazelwood-2382325.jpg": "/officalHolmesEnviro/static/media/pexels-suzy-hazelwood-2382325.21d2f385656135ac50aa.jpg",
     "static/media/meyer_agri-air_spray_plane.jpg": "/officalHolmesEnviro/static/media/meyer_agri-air_spray_plane.e17777cc9f2a31e1e689.jpg",
+    "static/media/KAAR3494.JPG": "/officalHolmesEnviro/static/media/KAAR3494.7ca1686eca49435314bf.JPG",
     "static/media/potato-farm.jpg": "/officalHolmesEnviro/static/media/potato-farm.97c5089749e7409eecdf.jpg",
-    "static/media/Aerial-app-at-Sunris.png": "/officalHolmesEnviro/static/media/Aerial-app-at-Sunris.f6c3563206c631345fb3.png",
     "static/media/Tuber-vegetables-Potato.jpg": "/officalHolmesEnviro/static/media/Tuber-vegetables-Potato.1e31d3b8c49bd2c7fdab.jpg",
     "index.html": "/officalHolmesEnviro/index.html",
-    "main.6e3d674e.css.map": "/officalHolmesEnviro/static/css/main.6e3d674e.css.map",
-    "main.fe109a93.js.map": "/officalHolmesEnviro/static/js/main.fe109a93.js.map",
+    "main.d5d251e2.css.map": "/officalHolmesEnviro/static/css/main.d5d251e2.css.map",
+    "main.ce78194a.js.map": "/officalHolmesEnviro/static/js/main.ce78194a.js.map",
     "787.c4e7f8f9.chunk.js.map": "/officalHolmesEnviro/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e3d674e.css",
-    "static/js/main.fe109a93.js"
+    "static/css/main.d5d251e2.css",
+    "static/js/main.ce78194a.js"
   ]
 }
